@@ -27,14 +27,15 @@
   margin: 0 12px 8px
 
 .article-header
-  padding: article-padding 0
+  padding: 0.5em 0 0.5em
 
 .article-title
   text-decoration: none
-  font-size: 2em
+  font-size: 1.8em
   font-weight: bold
   color: color-default
-  line-height: line-height-title
+  line-height: 1.0
+  margin-bottom: 0em
   transition: color 0.2s
   a&:hover
     color: color-link
@@ -60,8 +61,20 @@ if (hexo-config("title-number") == "config")
     margin: 0.5 * line-height 0
   h1, h2, h3, h4, h5, h6
     font-weight: bold
-    line-height: line-height-title
-    margin: 1.5 * line-height-title 0 line-height-title
+    line-height: 0.0em
+    margin: 1.5em 0 1em
+  h1
+    font-size: 1.2em
+  h2 
+    font-size: 1.0em
+  h3
+    font-size: 1.0em
+  h4
+    font-size: 1.0em
+  h5
+    font-size: 1.0em
+  h6
+    font-size: 1.0em
   a
     color: color-link
     text-decoration: none
